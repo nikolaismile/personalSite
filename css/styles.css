@@ -1,0 +1,144 @@
+
+/*tags*/
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 120%
+}
+
+h1 {
+  color: black;
+  margin-top: 50px;
+  font-family: 'Permanent Marker', cursive;
+}
+h2 {
+  color: black;
+  font-family: 'Permanent Marker', cursive;
+}
+h3 {
+  color: #66BFBF;
+  font-family: 'Merriweather', serif;
+  font-weight: normal;
+}
+
+title {
+  font-family: 'Montserrat', sans-serif;
+
+}
+hr {
+  border-color: #ffe2bc;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 6px;
+  width: 6%;
+  margin: 100px auto 100px auto;
+
+}
+
+/*classes*/
+.myTitle {
+  font-size: 2.5rem;
+}
+
+
+.top-container {
+  background-color: #ffecc7;
+  position: relative;
+  padding-top: 50px;
+  /*line-height: 2;*/
+}
+
+
+.middle-container {
+  background-color: #f5b971;
+
+}
+
+.bottom-container {
+  background-color: #85a392;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.skill-row {
+  text-align: left;
+  margin: 100px auto 100px auto;
+  font-size: 1rem
+
+}
+
+/* images */
+
+.top-cloud {
+  position: absolute;
+  right: 150px;
+  top: 20px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 180px;
+  bottom: 300px;
+
+
+}
+
+ .photo {
+  width:25%;
+
+ }
+
+ .skill1-img {
+   width:15%;
+   float: left;
+   margin-right: 30px;
+
+ }
+ .skill2-img {
+   width:15%;
+   float: right;
+   margin-left: 30px;
+   /*padding-bottom: 60px;*/
+ }
+
+ .skill_description {
+   margin: auto 100px auto 100px;
+ }
+
+.btn {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #F5B971;
+   font-family: 'Merriweather', serif;
+   font-size: 40px;
+   font-weight: 100;
+   padding: 40px;
+   background-color: #FDD998;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: linear-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+.copyright {
+  color: #ffe2bc;
+
+
+}
